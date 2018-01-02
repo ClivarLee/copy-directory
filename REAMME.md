@@ -14,8 +14,8 @@ yarn
 
 ## Usage
 copydirectory(src, dest)
-  * src 源目录
-  * dest 目标目录
+  * src source directory
+  * dest targert directory
 
 ```js
   var copydirectory = require('copydirectory');
