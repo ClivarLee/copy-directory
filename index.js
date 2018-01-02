@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const chalk = require('chalk')
 
 function copyFile(baseDirectory, targetDirectory) {
   fs.readdirSync(baseDirectory).forEach(fileOrDirector => {

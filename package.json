@@ -16,5 +16,8 @@
     "copy file"
   ],
   "author": "clivia931220@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
 }
