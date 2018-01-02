@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 function copyFile(baseDirectory, targetDirectory) {
   fs.readdirSync(baseDirectory).forEach(fileOrDirector => {
     const filePath = path.resolve(baseDirectory, fileOrDirector)
