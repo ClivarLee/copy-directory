@@ -16,7 +16,7 @@ yarn
 copydirectory(src, dest, callBack)
   * src - source directory
   * dest - targert directory
-  * callBack - invoke of copy done
+  * callBack - invoked when copy file done
 
 Async copy file
 ```js
