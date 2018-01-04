@@ -1,6 +1,6 @@
 {
   "name": "copydirectory",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "easy copy directory for node ",
   "main": "index.js",
   "scripts": {
