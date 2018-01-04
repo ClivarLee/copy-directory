@@ -13,13 +13,20 @@ yarn
 ```
 
 ## Usage
-copydirectory(src, dest)
-  * src source directory
-  * dest targert directory
+copydirectory(src, dest, callBack)
+  * src - source directory
+  * dest - targert directory
+  * callBack - invoke of copy done
 
+Async copy file
 ```js
   var copydirectory = require('copydirectory');
-  copydirectory('./dist', './build-zip')
+  copydirectory('./dist', './build-zip', (error) => {})
+```
+Sync copy file 
+```js
+  var copydirectory = require('copydirectory');
+  copydirectory.copyDirSync('./dist', './build-zip')
 ```
 
 ## License

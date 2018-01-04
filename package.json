@@ -4,7 +4,7 @@
   "description": "easy copy directory for node ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha 'test/*.js'"
   },
   "repository": {
     "url": "https://github.com/ClivarLee/copy-directory.git",
@@ -19,5 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0"
   }
 }
