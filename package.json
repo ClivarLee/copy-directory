@@ -10,6 +10,7 @@
     "url": "https://github.com/ClivarLee/copy-directory.git",
     "type": "git"
   },
+  "types": "./index.d.ts",
   "keywords": [
     "node",
     "copy directory",

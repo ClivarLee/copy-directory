@@ -23,7 +23,7 @@ describe('copyDir(copy directory sync)', function() {
 });
 
 describe('copyDir(copy directory async)', function() {
-  it('file should be equal in directory then async', function() {
+  it('file should be equal in directory then async', function(done) {
     const testDir = path.resolve(__dirname, '../testDir')      
     const rm = childProcess.spawnSync('rm', [ '-rf', testDir ])
 
